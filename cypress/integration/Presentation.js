@@ -8,6 +8,6 @@ describe("Presentation page", () => {
     it("Go back", () =>{
         cy.visit("/presentation");
         cy.get("a").click();
-        cy.contains("Välkommen CoolUser").end;
+        cy.contains("Välkommen CoolUser").end();
     }); 
 })
