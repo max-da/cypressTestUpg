@@ -1,7 +1,6 @@
 {
-  "name": "CYPRESS",
+  "name": "cypress",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "cypress open",
@@ -12,5 +11,14 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^6.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max-da/cypressTestUpg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/max-da/cypressTestUpg/issues"
+  },
+  "homepage": "https://github.com/max-da/cypressTestUpg#readme",
+  "description": ""
 }
