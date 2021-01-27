@@ -1,8 +1,9 @@
 describe('headingTest', ()=>{
     it('contains the correct title', ()=>{
         cy.visit("http://localhost:5000/guestbook");
-        cy.get("textarea")
+        
+        cy.get("h1")
         .invoke('text')
-        .should('equal', 'Skriv ett inlägg...');
+        .should('equal', 'Gästbok!');
     });
 });
