@@ -1,6 +1,6 @@
 describe("registerTest", ()=>{
     it("enter", ()=>{
-        cy.visit("/regsiter")
+        cy.visit("/register")
         cy.end()
         })
 
